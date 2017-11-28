@@ -49,10 +49,10 @@ Will produce:
 }
 ```
 
-## Version 0.1.0
+## Version 0.1.1
 
 ## License [MIT](LICENSE)
 
 [travis]: https://img.shields.io/travis/nhz-io/nhz-io-graph.svg?style=flat
 [npm]: https://img.shields.io/npm/v/@nhz.io/graph.svg?style=flat
-[coveralls]: https://coveralls.io/repos/github/nhz-io/nhz-io-graph/badge.svg?branch=v0.1.0
+[coveralls]: https://coveralls.io/repos/github/nhz-io/nhz-io-graph/badge.svg?branch=v0.1.1
