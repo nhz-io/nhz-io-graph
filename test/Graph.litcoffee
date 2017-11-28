@@ -116,7 +116,7 @@
 
           expect(graph.findEdges edges[0], edges[1]).to.be.deep.equal [ edges[0], edges[1] ]
 
-      describe '#setNode', ->
+      describe '#setNode()', ->
 
         it 'should set new nodes', ->
 
@@ -142,7 +142,7 @@
           graph.setNode nodes..., 'c', 'd'
 
 
-      describe '#unsetNode', ->
+      describe '#unsetNode()', ->
 
         it 'should unset existing nodes', ->
 
@@ -201,7 +201,7 @@
 
           graph.unsetNode 'a', 'd', 'e', 'b'
 
-      describe '#setEdge', ->
+      describe '#setEdge()', ->
         it 'should do nothing for empty args', -> (new Graph).setEdge()
 
         it 'should set changed or new edges', ->
@@ -260,7 +260,7 @@
 
           expect(graph.nodes).to.be.deep.equal newNodes
 
-      describe '#unsetEdge', ->
+      describe '#unsetEdge()', ->
 
         it 'should do nothing for empty args', -> (new Graph).unsetEdge()
 
@@ -290,7 +290,7 @@
 
           expect(graph.edges).to.be.deep.equal [ edges[1], edges[3] ]
 
-      describe '#toJSON', ->
+      describe '#toJSON()', ->
 
         it 'should convert the graph into `options` object', ->
 
