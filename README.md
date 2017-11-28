@@ -1,7 +1,7 @@
 # Graph
 
 [![Travis Build][travis]](https://travis-ci.org/nhz-io/nhz-io-graph)
-[![Coverage][coveralls]](https://coveralls.io/github/nhz-io/graph)
+[![Coverage][coveralls]](https://coveralls.io/github/nhz-io/nhz-io-graph)
 [![NPM Version][npm]](https://www.npmjs.com/package/@nhz.io/graph)
 
 ## Install
