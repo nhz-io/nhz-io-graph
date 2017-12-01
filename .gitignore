@@ -11,6 +11,9 @@
 !package-lock.json
 !.editorconfig
 !src
-!src/*
+!src/**
 !test
-!test/*
+!test/**
+!bench/
+!bench/*
+!bench/**

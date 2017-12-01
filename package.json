@@ -36,12 +36,14 @@
     "uuid": "^3.1.0"
   },
   "devDependencies": {
+    "benchmark": "^2.1.4",
     "chai": "^4.1.2",
     "coffee-coverage": "^2.0.1",
     "coffeescript": "^2.0.2",
     "coveralls": "^3.0.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-bench": "^1.1.0",
     "gulp-coffeelint": "^0.6.0",
     "gulp-coffeescript": "0.0.15",
     "gulp-spawn-mocha": "^4.0.1",

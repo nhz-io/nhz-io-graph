@@ -17,6 +17,8 @@
 
     mocha     = require 'gulp-spawn-mocha'
 
+    benchmark = require 'gulp-bench'
+
 > Rollup Plugins
 
     resolve   = require 'rollup-plugin-node-resolve'
@@ -92,6 +94,16 @@
       gulp.src './test/**/*.litcoffee'
 
       mocha { require: './test/setup' }
+
+    ]
+
+## Bench
+
+    gulp.task 'bench', ['coffee'], -> pump [
+
+      gulp.src './bench/**/*.litcoffee'
+
+      benchmark()
 
     ]
 
